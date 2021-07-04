@@ -1,0 +1,134 @@
+
+.short-width-slider-2 {
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	height: 260px;
+	padding: 0px 0px 0px 0px;
+	background-color: #eee;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+.short-width-slider-2 .slider .item {
+	width: 230px;
+	height: 260px;
+
+}
+.short-width-slider-2 .slider .item .freshwork-img-box {
+	width: 200px;
+	height: 220px;
+	margin: 0px 20px 0px 0px;
+	border: 5px solid #fff;
+	background-color: #fff;
+}
+.short-width-slider-2 .slider .item .freshwork-img-box span {
+	font-size: 14px;
+	color: #727272;
+	float: left;
+	font-weight: normal;
+	padding-right: 40px;
+	margin: 10px 0px 0px 15px;
+	background: #fff url(../../images/arrows-02.png) no-repeat right 1px;
+}
+
+.short-width-slider-2 .next {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	background: #fff url(../../images/arrow-right.png) no-repeat center 5px;
+}
+
+.short-width-slider-2 .prev {
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	background: #fff url(../../images/arrow-left.png) no-repeat center 5px;
+}
+
+
+
+
+
+/* ----------- this is customer/partners logos slider ----------- */
+
+.short-width-slider-3 {
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	height: 110px;
+	padding: 0px 0px 0px 0px;
+}
+.short-width-slider-3 .slider .item {
+	width: 116px;
+	height: 96px;
+
+}
+.short-width-slider-3 .slider .item .freshwork-img-box {
+	width: 96px;
+	height: 76px;
+	border: 2px solid #f4f4f4;
+	background-color: #fff;
+}
+
+.short-width-slider-3 .next {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	background: #f4f4f4 url(../../images/arrow-right.png) no-repeat center 5px;
+}
+
+.short-width-slider-3 .prev {
+	position: absolute;
+	bottom: 0px;
+	right: 25px;
+	width: 20px;
+	height: 20px;
+	background: #f4f4f4 url(../../images/arrow-left.png) no-repeat center 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+	
+	.freshworks-gallery {margin: 0px 20px 0px 10px; }
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	.freshworks-content { margin: 0px 10px 0px 0px; width: 160px; padding: 10px; }
+	.freshworks-gallery {margin: 0px 25px 0px 15px; }
+
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.short-width-slider-2 {padding: 10px 0px 0px 20px; margin: 0px 0px 0px -10px; }
+	.short-width-slider-2 .item {padding: 0px 0px 0px 0px; margin: 0px; }
+	.short-width-slider-2 .slider .item .freshwork-img-box { border: none; }
+
+
+
+}

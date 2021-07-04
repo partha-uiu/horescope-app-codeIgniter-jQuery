@@ -1,0 +1,228 @@
+/*------------------*/
+/*	GENERAL
+/*------------------------------------------------------*/
+
+#product-show-area {
+    padding: 0 50px 0 65px;
+}
+
+.product-description {
+        margin-top: 21px;
+}
+.product-show {
+    height: 100px; 
+    width: 200px;
+    margin-bottom: 150px;
+}
+.bin-select {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    margin: 8px 0 0 15px;
+}
+#ajax_comments{
+     padding-bottom: 10px;
+    padding-right: 47px;
+    padding-left: 35px;
+}
+.waste_details_div{
+    background: none repeat scroll 0 0 grey;
+    color: #fff !important;
+    padding: 1px 10px 20px;
+}
+.waste_details_div h3,h4{    
+    color: #fff !important;
+    margin-top: 20px;
+}
+
+/*-----------Cart--------------- */
+
+#product-show-area .cart-area {
+    margin-top: -35px;
+}
+.continue_shop {
+    float: right;
+    padding-bottom: 15px;
+}
+.continue_shop button  {
+    border-radius: 5px;
+}
+
+.table-container{
+    display:table;
+    border-collapse: table-collapse;
+    width:100%;
+}
+.table-heading{
+    font-weight: bold;
+    display:table-row;
+    text-align: center;
+    background-color: grey;
+    line-height: 36px;
+    font-size: 16px;
+    color:#fff;
+
+}
+.table-row{  
+    display:table-row;
+    text-align: center;
+}
+.table-head-col {
+    border: 1px solid #fff;
+    display:table-cell;
+    padding: 8px 5px;
+}
+
+.table-col{
+    display:table-cell;
+    padding: 8px 5px;
+    border-bottom: 1px solid #00ab54;
+}
+.cart-details {
+    text-align: left;
+    padding: 5px;
+}
+.cart-details li {
+    padding-bottom: 10px;
+}
+
+.cart-st .table-col {
+    position: relative;
+}
+
+.cart-st .table-col .rmv{
+    position: absolute;
+    top: 44%;
+    z-index: 2;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cart-st .table-col .cart-align-price {
+    position: absolute;
+    top: 44%;
+    padding-left: 40%;
+    z-index: 2;
+}
+
+/*----------CheckOut Page-----------------*/
+
+#content1 {
+        margin:1% 10% 5% 10%;
+        background-color:white;
+        overflow:auto;
+        padding: 3px;
+    }
+.content2 {
+        margin:1% 10% 5% 10%;
+        background-color:gainsboro;
+        overflow:auto;
+        padding: 25px;
+        border: 1px solid green;
+        display: none;
+    }
+
+    #payment {
+        margin: 4% 10% 9% 10%;
+        padding:4%;
+        background-color: gainsboro;
+    }
+    .desc {
+        width: 60%;
+        height: 30px;
+        background-color: darkgray;          
+        margin:5px;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+    }
+    #cash {
+        width: 60%;
+        height: 30px;
+        background-color: darkgray;
+        display: none;
+        margin:5px;
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+    }
+    #paypal {
+        height: 30px;
+        width: 60%;
+        padding: 5px;
+        margin:5px;
+        background-color: darkgray;
+        display: none;
+        color: white;
+        border-radius: 5px;
+    }
+    #product-show-area .ur-order {
+        position: relative;
+        top: -30px;
+    }
+    .place-order {
+          float: right;
+          margin-right: 135px;
+          margin-top: -56px;
+          font-size: 16px;
+    }
+
+    .returning {
+        width: 80%;
+      display: block;
+      border: 1px solid red;
+      padding: 12px;
+      margin-left: 133px;
+    }
+    
+    .continue_shop1 {
+          padding-bottom: 35px;
+          margin-top: 20px;
+          text-align: center;
+          font-size: 17px;
+}
+.order-success-msg {
+    font-size: 25px;text-align: center;margin-top: 25px;
+}
+
+
+/* Responsive CSS Styles Table of Contents */
+
+
+@media only screen and (min-width: 1000px){#billing_order {margin-top: 35px;margin-bottom: 15px;}}
+@media only screen and (min-width: 768px) and (max-width: 999px){
+        
+        .product-description { margin-top: 0;}
+        .product-show {height: 100px; width: 200px; margin-bottom: 140px;margin-left: 25px;}
+        #product-show-area .cart-area {margin-top: 0;margin-left: -60px;}
+        .res-view {margin-right: 60px;}
+        #billing_order {margin-top: 35px;margin-bottom: 15px;}
+        .returning {margin-left: 80px;}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+        
+        .product-description { margin-top: 0;}
+        #product-show-area .cart-area {margin-top: 0;margin-left: -60px;}
+        .res-view {margin-right: 60px;}
+        #billing_order {margin-top: 35px;margin-bottom: 15px;}
+        .returning {width: 88%;margin-left: 18px;margin-top: 15px;}
+
+}
+
+
+@media only screen and (max-width: 480px){
+        
+        .product-description { margin-top: 0;}
+        .product-show {height: 100px; width: 200px; margin-bottom: 140px;margin-left: 25px;}
+        #product-show-area .cart-area {margin-top: 0;margin-left: -60px;}
+        .res-view {margin-right: 60px;}
+	#billing_order {margin-top: 50px;margin-bottom: 15px;}
+        .returning {width: 88%;margin-left: 18px;margin-top: 15px;}
+        #product-show-area .ur-order {top: -10px;}
+        #place_order{margin-top: 50px;margin-bottom: 15px;}
+        .desc {width: 100%;height: 66px;}
+	
+}

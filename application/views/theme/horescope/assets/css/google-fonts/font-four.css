@@ -1,0 +1,84 @@
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+blockquote,
+pre,
+code,
+kbd,
+.strong-marbom,
+.b-text-one,
+.left-border-box,
+.left-border-box-two,
+.dropcap1,
+.dropcap2,
+.dropcap3,
+#pricing-tables .title,
+#pricing-tables .price,
+#pricing-tables-helight .title,
+#pricing-tables-helight .price,
+.top-search,
+#content .five.columns b,
+.home-services-list li a,
+.freshworks-content h2,
+.morebut-small,
+.morebut-small-two a,
+.slider-video-left,
+.slider-video-left span.textsmally,
+.home-latest-list li a,
+.home-clientsays-content b,
+.page-main-title .reght-pagenation,
+#content .content-left .our-team-box li strong,
+#content .content-left .our-team-box span,
+ul.post_meta_links,
+.blog_post a.date,
+.blog_post a.date strong,
+.pagination,
+.pagenotfound,
+.short-width-slider-2 .slider .item .freshwork-img-box span
+
+
+{
+	font-family: 'Vollkorn';
+	font-weight: normal;
+}
+
+#site-logo,
+#site-logo i
+{
+	font-family: 'Vollkorn';
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+#access .menu ul li a
+{
+	font-family: 'Vollkorn';
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+.iosSlider .slider .item .inner .text1 span, .iosSlider .slider .item .inner .text1 span b, .iosSlider .slider .item .inner .text2 span
+{
+	font-family: 'Vollkorn';
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.iosSlider .slider .item .inner .morebut a, .slider-video-left .morebut a {
+	font-family: 'Vollkorn';
+	letter-spacing: -1px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.sliderContainer .slideSelectors
+{
+	font-family: 'Vollkorn';
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+#page-footer #footer-logo {
+	font-family: 'Vollkorn';
+	font-size: 40px;
+	font-weight: normal;
+}

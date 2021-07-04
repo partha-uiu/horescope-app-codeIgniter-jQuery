@@ -1,0 +1,88 @@
+@media only screen and (min-width: 1151px) and (max-width: 1239px) {
+               
+	}
+@media only screen and (min-width: 990px) and (max-width: 1150px) {
+		.color-line h1 {right: 42%;font-size: 40px;}
+                .icon-header {left: 10%;}
+                .iconic-des {width: 18%;margin-left: 0;}
+                .sponsor-area {margin-right: 80px;}
+                .contact1 {margin-left: -65px;}
+                .updated_menu ul {margin-left: -120px;}
+}
+@media only screen and (min-width: 1151px) and (max-width: 1315px) {
+                .updated_menu ul {margin-left: -120px;}
+}
+@media only screen and (min-width: 800px) and (max-width: 980px) {
+		
+}
+	
+	
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+		.logo {width: 28%;}
+                .color-line h1 {right: 40%;font-size: 38px;}
+                .color-line h2 {padding-top: 25%;}
+                .color-line p {left: 45px;}
+                .color-line button {margin-left: 31%;}
+                .icon-header {left: 4%;}
+                .iconic-des {width: 43%;margin-left: 26px;}
+                .portfolio {width: 121%;}
+                .sponsor-image {width: 90%;}
+                .sponsor-image1 {width: 58%;}
+                .sponsor-area {width: 75%}
+                .main-circle {margin-left: 18%;}
+                .contact1 {width: 25%;margin-left: -59px;}
+                .contact1 {width: 25%;}
+                .map_area {width: auto;}
+                .updated_menu ul {margin-left: -62px;}
+                .social_icon ul li{width: 20%;}
+
+}
+	
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+            .logo {width: 50%;}
+            .logo-area {min-height: 500px;}
+            .color-line img {width: 3px;}
+            .color-line h2 {font-size: 32px;}
+            .color-line p {left: 28px;font-size: 20px;}
+            .color-line button {margin-left: 8%;}
+            .iconic-des {margin-left: 9px;}
+            .icon-header {left: 1%;width: 252px;margin: 0;}
+            .icon-header h1 {font-size: 18px;}
+            .portfolio {width: 100%;}
+            .sponsor-image {width: 20%;margin-bottom: 35px;margin-left: 30px;}
+            .sponsor-image1 {width: 16%;margin-bottom: 35px;margin-left: 30px;}
+            .main-circle {margin-left: 0;width: 20%;}
+            .footer-logo {width: 22%; margin-top: 5%;margin-left: 0;}
+            .contact1 {width: 30%;}
+            .contact2 {width: 22%;margin-top: 40px;margin-bottom: 30px;}
+            .quotes p {width: 30%;margin-left: -42px;font-size: 16px;}
+	}
+	
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+            .sponsor-image {margin-left: 80px;}
+            .sponsor-image1 {margin-left: 80px;}
+	}

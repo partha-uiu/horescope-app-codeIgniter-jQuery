@@ -1,0 +1,42 @@
+.togglebox1 {
+	background-color:#f9f9f9;
+	border: 1px solid #eee;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	margin-top: 10px;
+	line-height: 21px;
+	display: none;
+}
+.togglebox1 .block {
+	padding: 15px 20px;
+}
+.togglebox1 .block strong {
+	font-size: 18px;
+}
+a.toggleclick {
+	display: block;
+	font-size: 18px;
+	margin-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	color: #636363;
+}
+
+.togglebox-show {
+	background-color:#f9f9f9;
+	border: 1px solid #eee;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	margin-top: 10px;
+	line-height: 21px;
+}
+.togglebox-show .block {
+	padding: 15px 20px;
+}
+.togglebox-show .block strong {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}

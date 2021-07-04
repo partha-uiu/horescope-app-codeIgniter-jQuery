@@ -1,0 +1,28 @@
+.div_wrapper{
+    height: auto; border: 1px #d9d9d9 solid; box-shadow: 1px 1px 3px 1px #F0F0F0; margin: 20px; padding: 10px; text-align: center; position: relative;
+}
+.div_wrapper_inner{height: auto;}
+.poster_logo{width: 286px; background: #fff; padding: 0 5px;}
+
+.poster_logo_bar{border-top: 1px solid #B3B3B3; margin-top: -32px;}
+.poster_title{font-family: OpenSans-Bold; font-size: 32px; margin-top: 42px; color: #333;}
+.poster_campaign_img{width: 60%;}
+.poster_campaign_msg{font-family: OpenSans-Regular; font-size: 20px; margin-top: 10px; color: #777;}
+.poster_campaign_link{font-family: OpenSans-Bold; font-size: 24px;}
+.poster_token_div_wrapper{height: 250px; width: 800px; border: 0px #333 solid; margin: 0 auto;}
+.poster_token_wrap{background: none; text-align: left; display: inline-block; transform: rotate(90deg); transform-origin: 0 0; margin: 30px 0 0 410px;}
+
+.poster_clear{clear: both; display: block; height: 0;}
+.poster_token_inner{border-bottom: 1px #777 dashed;}
+.poster_token_div{padding: 10px; width: auto;}
+.poster_token_title{font-family: OpenSans-Regular; font-size: 12px; display: block; margin-bottom: 0px;}
+.poster_token_link{font-family: OpenSans-Light; font-size: 11px; display: block;}
+@media print {
+    title{visibility: hidden;}
+    .poster_logo{background: #ffffff !important; text-align: center}
+    .poster_token_wrap{margin: 30px 0 0 92%;}
+    .poster_token_div{padding: 10px; width: auto;}
+    .poster_token_title{font-size: 18px;}
+    .poster_token_link{font-size: 14px;}
+    .poster_token_div_wrapper{height: 350px;}
+}

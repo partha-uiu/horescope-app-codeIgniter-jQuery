@@ -1,0 +1,295 @@
+.fluidHeight {
+	width: 100%;
+	padding: 0 0 56% 0;
+	margin: 0px 0 0px 0;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+}
+
+.sliderContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.iosSlider {
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 450px;
+	background: url(../../images/sliders/iosslider/header-slider-bg.png) no-repeat left top;
+}
+
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+
+.iosSlider .slider .item {
+	width: 100%;
+	height: 100%;
+	padding: 0px 0 0px 0;
+}
+
+.iosSlider .slider .item .inner {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.iosSlider .slider .item .inner .text1 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    padding: 0;
+}
+
+.iosSlider .slider .item .inner .text1 span b {
+	color: #3c3c3c;
+	font-weight: normal;
+}
+.iosSlider .slider .item .inner .text1 span {
+	color: #ff0000;
+	font-size: 55px;
+	line-height: 53px;
+	font-weight: normal;
+	text-transform: uppercase;
+    padding: 0;
+}
+
+.iosSlider .slider .item .inner .text2 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.iosSlider .slider .item .inner .text2 span {
+	color: #424b54;
+	line-height: 36px;
+	font-size: 18px;
+}
+
+.iosSlider .slider .item1 .inner {
+	background-image: url(../../images/sliders/iosslider/1-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item2 .inner {
+	background-image: url(../../images/sliders/iosslider/2-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item3 .inner {
+	background-image: url(../../images/sliders/iosslider/3-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item4 .inner {
+	background-image: url(../../images/sliders/iosslider/4-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.sliderContainer .slideSelectors {
+	position: relative;
+	bottom: 20px;
+	left: 0;
+	top: 0px;
+	width: 100%;
+	height: 97px;
+	margin: 0 auto;
+	z-index: 1;
+	border-top: 2px solid #363636;
+	border-bottom: 1px solid #363636;
+	background-color: #363636;
+}
+
+.sliderContainer .slideSelectors .item {
+	float: left;
+	width: 248px;
+	height: 97px;
+	background-color: #414141;
+	margin: 0 1px 0 1px;
+}
+.sliderContainer .slideSelectors ul.iosslider-item-list {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 18px 20px 0px 5px;
+}
+.sliderContainer .slideSelectors .iosslider-item-list li {
+	margin: 0px;
+	list-style-type: none;
+	color: #999;
+	font-weight: normal;
+	line-height: 18px;
+}
+.sliderContainer .slideSelectors i.iosslider-item-simg1 {
+	float: left;
+	width: 54px;
+	height: 54px;
+	border: 3px solid #eee;
+	margin-right: 15px;
+	background: url(../../images/sliders/iosslider/1-s.jpg) no-repeat left top;
+}
+.sliderContainer .slideSelectors i.iosslider-item-simg2 {
+	float: left;
+	width: 54px;
+	height: 54px;
+	border: 3px solid #eee;
+	margin-right: 15px;
+	background: url(../../images/sliders/iosslider/2-s.jpg) no-repeat left top;
+}
+.sliderContainer .slideSelectors i.iosslider-item-simg3 {
+	float: left;
+	width: 54px;
+	height: 54px;
+	border: 3px solid #eee;
+	margin-right: 15px;
+	background: url(../../images/sliders/iosslider/3-s.jpg) no-repeat left top;
+}
+.sliderContainer .slideSelectors i.iosslider-item-simg4 {
+	float: left;
+	width: 54px;
+	height: 54px;
+	border: 3px solid #eee;
+	margin-right: 15px;
+	background: url(../../images/sliders/iosslider/4-s.jpg) no-repeat left top;
+}
+.sliderContainer .slideSelectors .iosslider-item-list li strong {
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 5px;
+}
+.sliderContainer .slideSelectors .selected {
+	background: #636363 url(../../images/sliders/iosslider/slide-selector-arrow.png) no-repeat center top;
+	color: #fff;
+}
+
+.iosSlider .slider .item .inner .morebut {
+	position: relative;
+	top: 25px;
+	height: 45px;
+	width: 200px;
+	border-left: 3px solid #ff0000;
+	background: url(../../images/sliders/iosslider/mainslider-morebut-bg.jpg) repeat-x left top;
+}
+.iosSlider .slider .item .inner .morebut a {
+	height: 35px;
+	color: #3c3c3c;
+	padding: 10px 25px 0px 20px;
+	display: block;
+	float: left;
+	font-size: 18px;
+	background: url(../../images/sliders/iosslider/arrows-01.png) no-repeat right 15px;
+}
+.iosSlider .slider .item .inner .morebut a:hover {
+	color: #ff0000;
+}
+
+
+
+
+@media only screen and (min-width: 1000px){}
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	
+	.iosSlider .slider .item .inner {
+		width: 100%;
+		margin: 0;
+		background-position: 80% 0;
+	}
+	
+	.sliderContainer .slideSelectors {
+		width: 100%;
+		margin: 0;
+	}
+	.sliderContainer .slideSelectors .item {width: 185px; height: 70px; background: #414141; margin: 0 1px 0 1px; }
+	
+	.sliderContainer .slideSelectors {height: 70px; }
+	
+	.sliderContainer .slideSelectors ul.iosslider-item-list {float: left; margin: 0 0 0 -10px; padding: 5px 0px 0px 5px; }
+	.sliderContainer .slideSelectors .iosslider-item-list p { visibility: hidden; }
+	.sliderContainer .slideSelectors .iosslider-item-list strong { padding-top: 10px; }
+	.sliderContainer .slideSelectors .selected {background: #636363 url(../../images/sliders/iosslider/slide-selector-arrow.png) no-repeat center top; }
+
+	.iosSlider .slider .item1 .inner {
+		background-image: url(../../images/sliders/iosslider/1-b.png);
+		background-position: right top;
+		background-repeat: no-repeat;
+	}
+	
+.iosSlider .slider .item1 .inner {
+	background-image: url(../../images/sliders/iosslider/1-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item2 .inner {
+	background-image: url(../../images/sliders/iosslider/2-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item3 .inner {
+	background-image: url(../../images/sliders/iosslider/3-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.iosSlider .slider .item4 .inner {
+	background-image: url(../../images/sliders/iosslider/4-b.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+	.iosSlider .slider .item .inner .text1 span {font-size: 30px }
+	.iosSlider .slider .item .inner .text2 span {font-size: 13px; line-height: 14px; }
+	.iosSlider .slider .item .inner .text1 {top: 45px; }
+	.iosSlider .slider .item .inner .text2 {top: 100px; }
+	.sliderContainer .slideSelectors .item {width: 14px; height: 14px; background-color: #363636; margin: 3px 2px 0 2px; border: 1px solid #363636; }
+	.sliderContainer .slideSelectors .selected {width: 14px; height: 14px; background-image: none; background-color: #999; margin: 3px 2px 0 2px; border: 1px solid #363636; }
+	.sliderContainer .slideSelectors { border-bottom: none; background: none; }
+	
+	.sliderContainer .slideSelectors ul.iosslider-item-list { display: none; }
+	.iosSlider .slider .item .inner .morebut { display: none; }
+	
+	
+
+}
+
+
+@media only screen and (max-width: 480px){
+
+	.iosSlider .slider .item .inner .text1 span {font-size: 18px; }
+	.iosSlider .slider .item .inner .text2 span {font-size: 10px; line-height: 9px; }
+	.iosSlider .slider .item .inner .morebut { display: none; }
+	.iosSlider .slider .item .inner .text1 {top: 20px; }
+	.iosSlider .slider .item .inner .text2 {top: 60px; }
+	.sliderContainer .slideSelectors .item {width: 20px; height: 20px; background: #999; margin: 0 2px 0 2px; }
+	.sliderContainer .slideSelectors { border-bottom: none; background: none; }
+	.sliderContainer .slideSelectors .item {width: 14px; height: 14px; background-color: #363636; margin: 3px 2px 0 2px; border: 1px solid #363636; }
+	.sliderContainer .slideSelectors .selected {width: 14px; height: 14px; background-image: none; background-color: #999; margin: 3px 2px 0 2px; border: 1px solid #363636; }
+	
+	.sliderContainer .slideSelectors ul.iosslider-item-list { display: none; }
+
+}

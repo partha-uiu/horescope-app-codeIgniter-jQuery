@@ -1,0 +1,132 @@
+#tabs-two {
+	padding:0px;
+	float:left;
+	clear:both;
+	width: 100%;
+	margin-bottom:15px;
+	margin-top: 10px;
+}
+	
+	ul.tabs-two {
+	margin: 9px 0 0 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	min-height: 45px;
+ 	width: 100%;
+	background: #eee;
+	}
+	ul.tabs-two li {
+		float: left;
+		padding: 0;
+		margin: 0 0 0 0px;
+		min-height: 45px;
+		line-height: 45px;
+ 		border-left: none;
+		margin-bottom: -1px;
+		overflow: hidden;
+		position: relative;
+		border-right: 2px solid #fff;
+		border-bottom: 1px solid #ddd;
+ 	}
+	ul.tabs-two li a {
+		text-decoration: none;
+		color: #272727;
+		display: block;
+		font-size: 14px;
+ 		outline: none;
+ 		cursor: pointer;
+		text-align: left;
+		padding: 0px 15px 0px 15px;
+		background-color: #eee;
+		width: 215px;
+		border-bottom: 1px solid #fff;
+		font-family: 'Oswald', sans-serif;
+		font-weight: normal;
+	}
+	ul.tabs-two li a:hover {
+ 	}
+ 	
+	html ul.tabs-two li.active, html ul.tabs-two li.active a,  html ul.tabs-two li.active a:hover  { 
+		color:#3c3c3c;
+		background-color: #f9f9f9;
+		border-left: 2px solid #ff0000;
+		height: 44px;
+ 	}
+	
+	
+.tab-container-two {
+ 	overflow: hidden;
+	clear: both;
+	float: left; 
+	padding: 20px;
+	width:100%;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+	border-top: 1px solid #eee;
+
+ }
+	.tab-content-two {
+	padding: 0px 0;
+	font-size: 14px;
+	background-color: #f9f9f9;
+	}
+	
+.tab-content-two h3 { 
+	font-size: 20px; 
+	margin-bottom: 10px;
+} 
+
+#tabs-two .one-full, .one-full, .one-half, .one-third,.one-fourth {
+	position: relative;
+	margin-right: 3%;
+	float: left;
+}
+#tabs-two .one-full {
+	width: 70%;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	.tab-container-two {overflow: hidden; clear: both; float: left;  padding: 20px 15px 10px 15px; width:93%; }
+	#tabs-two .one-full {width: 100%; margin-top: -30px;}
+		ul.tabs-two li a {
+		text-decoration: none;
+		color: #3c3c3c;
+		display: block;
+		font-size: 14px;
+		font-weight:bold;
+ 		outline: none;
+ 		cursor: pointer;
+		text-align: left;
+		padding: 0px 15px 0px 15px;
+		background-color: #eee;
+		width: 389px;
+		border-bottom: 1px solid #fff;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+
+	#tabs-two .one-full {width: 85%; margin-top: -30px;}
+		ul.tabs-two li a {
+		text-decoration: none;
+		color: #3c3c3c;
+		display: block;
+		font-size: 14px;
+		font-weight:bold;
+ 		outline: none;
+ 		cursor: pointer;
+		text-align: left;
+		padding: 0px 15px 0px 15px;
+		background-color: #eee;
+		width: 249px;
+		border-bottom: 1px solid #fff;
+	}
+
+}
+
+	

@@ -1,0 +1,1 @@
+<h1>view: blog index si running</h1>
